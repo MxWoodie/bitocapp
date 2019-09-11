@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    meta(http-equiv="X-UA-Compatible", content="ie=edge")
+    title Exchange Rates
+  body
+    a(href="/add") Add Record
+    table
+      tr
+        th Symbol
+        th Rate
+        th Upload date
+        th Source
+      for item in data
+        tr
+          td #{item.symbol}
+          td #{item.rate}
+          td #{item.timestamp}
+          td #{item.user}

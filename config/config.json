@@ -1,0 +1,26 @@
+{
+  "development": {
+    "username": "admin",
+    "password": "b6E&VH+9",
+    "database": "cryptotask",
+    "host": "localhost",
+    "dialect": "mysql",
+    "operatorsAliases": false
+  },
+  "test": {
+    "username": "admin",
+    "password": "b6E&VH+9",
+    "database": "cryptotask",
+    "host": "localhost",
+    "dialect": "mysql",
+    "operatorsAliases": false
+  },
+  "production": {
+    "username": "admin",
+    "password": "b6E&VH+9",
+    "database": "cryptotask",
+    "host": "localhost",
+    "dialect": "mysql",
+    "operatorsAliases": false
+  }
+}
